@@ -11,7 +11,7 @@ import CoreData
 class ViewController: UIViewController {
 
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-   // private var bmiResultList = [BMIResultList]()
+   private var bmiRL = [BMIResultList]()
     
     //variable declaration for textfields,labels and switch
     @IBOutlet var bgColor: UIView!
@@ -137,29 +137,27 @@ class ViewController: UIViewController {
 //       }
     }
 
-//    //add BMI record into coredata
-//    func addResult(weight :Float, bmi : Float)
-//    {
-//        let date = Date()
-//        let newResult = BMIResultList(context: context)
-//
-//        newResult.name = nameField.text
-//        newResult.age = ageField.text
-//        newResult.gender = genderField.text
-//        newResult.height = height!
-//        newResult.weight = weight
-//        newResult.bmi = bmi
-//        newResult.date = date
-//        //print(newResult)
-//        do
-//        {
-//            try context.save()
-//        }
-//        catch{}
-//    }
-//
-//    }
-//
+    //add BMI record into coredata
+    func addResult(weight :Float, bmi : Float)
+    {
+        let date = Date()
+        let newResult = BMIResultList(context: context)
+
+        newResult.name = nameField.text
+        newResult.age = ageField.text
+        newResult.gender = genderField.text
+        newResult.height = height
+        newResult.weight = weight
+        newResult.bmi = bmi
+        newResult.date = date
+        //print(newResult)
+        do
+        {
+            try context.save()
+        }
+        catch{}
+    }
+
     
     
     
@@ -178,7 +176,10 @@ class ViewController: UIViewController {
     
     
     //History data functionality
-    @IBAction func checkHistoryButton(_ sender: Any) {
+    @IBAction func checkHistoryButton(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        self.navigationController?.pushViewController(vc , animated: true)
+        
     }
     
     

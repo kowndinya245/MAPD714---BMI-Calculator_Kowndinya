@@ -17,6 +17,9 @@
 		B6C8AE07294D9E2800BD94A7 /* BMI_Calculator_KowndinyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE06294D9E2800BD94A7 /* BMI_Calculator_KowndinyaTests.swift */; };
 		B6C8AE11294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE10294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITests.swift */; };
 		B6C8AE13294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE12294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITestsLaunchTests.swift */; };
+		B6C8AE20294DCB6500BD94A7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE1F294DCB6500BD94A7 /* SecondViewController.swift */; };
+		B6C8AE22294DCFE600BD94A7 /* BMIResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE21294DCFE600BD94A7 /* BMIResultList.swift */; };
+		B6C8AE24294DD01000BD94A7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8AE23294DD01000BD94A7 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B6C8AE0C294D9E2800BD94A7 /* BMI Calculator_KowndinyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI Calculator_KowndinyaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C8AE10294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_Calculator_KowndinyaUITests.swift; sourceTree = "<group>"; };
 		B6C8AE12294D9E2800BD94A7 /* BMI_Calculator_KowndinyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_Calculator_KowndinyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6C8AE1F294DCB6500BD94A7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B6C8AE21294DCFE600BD94A7 /* BMIResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultList.swift; sourceTree = "<group>"; };
+		B6C8AE23294DD01000BD94A7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				B6C8ADEC294D9E2700BD94A7 /* AppDelegate.swift */,
 				B6C8ADEE294D9E2700BD94A7 /* SceneDelegate.swift */,
 				B6C8ADF0294D9E2700BD94A7 /* ViewController.swift */,
+				B6C8AE1F294DCB6500BD94A7 /* SecondViewController.swift */,
+				B6C8AE21294DCFE600BD94A7 /* BMIResultList.swift */,
+				B6C8AE23294DD01000BD94A7 /* CustomCell.swift */,
 				B6C8ADF2294D9E2700BD94A7 /* Main.storyboard */,
 				B6C8ADF8294D9E2800BD94A7 /* Assets.xcassets */,
 				B6C8ADFA294D9E2800BD94A7 /* LaunchScreen.storyboard */,
@@ -264,6 +273,9 @@
 				B6C8ADF1294D9E2700BD94A7 /* ViewController.swift in Sources */,
 				B6C8ADF7294D9E2700BD94A7 /* BMI_Calculator_Kowndinya.xcdatamodeld in Sources */,
 				B6C8ADED294D9E2700BD94A7 /* AppDelegate.swift in Sources */,
+				B6C8AE22294DCFE600BD94A7 /* BMIResultList.swift in Sources */,
+				B6C8AE20294DCB6500BD94A7 /* SecondViewController.swift in Sources */,
+				B6C8AE24294DD01000BD94A7 /* CustomCell.swift in Sources */,
 				B6C8ADEF294D9E2700BD94A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
