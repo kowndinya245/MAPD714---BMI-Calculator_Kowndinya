@@ -99,11 +99,6 @@ class ViewController: UIViewController {
         else
         {
             
-
-//            weight = Float(self.weightField.text!)
-//            height = Float(self.weightField.text!)
-//
-            
             if (unitSelect.selectedSegmentIndex == 0) {
                 
                 /** If Imperial Unit is selected convert to kg and meter */
@@ -136,45 +131,10 @@ class ViewController: UIViewController {
             else if (bmi >= 30 && bmi < 35) {self.categoryLb.text = "Obese Class I"}
             else if (bmi >= 35 && bmi <= 40) {self.categoryLb.text = "Obese Class II"}
             else if (bmi > 40) {self.categoryLb.text = "Obese Class III"}
-           //            }
             
-            ///
-            ///
-            ///
-            ///
-            ///
-            ///
-//                bmi = Float((weight!*703)/(height!*height!))
-//                roundedBMI = round(bmi!*100)/100.0
-//                self.resutlLb.text = String(format:"%.\(2)f", bmi!)
-//
-//                if (bmi! < 16) {self.categoryLb.text = "Severe Thinness"}
-//                else if (bmi! >= 16 && bmi! < 17) {self.categoryLb.text = "Moderate Thinness"}
-//                else if (bmi! >= 17 && bmi! < 18.5) {self.categoryLb.text = "Mild Thinness"}
-//                else if (bmi! >= 18.5 && bmi! < 25) {self.categoryLb.text = "Normal"}
-//                else if (bmi! >= 25 && bmi! < 30) {self.categoryLb.text = "Overweight"}
-//                else if (bmi! >= 30 && bmi! < 35) {self.categoryLb.text = "Obese Class I"}
-//                else if (bmi! >= 35 && bmi! <= 40) {self.categoryLb.text = "Obese Class II"}
-//                else if (bmi! > 40) {self.categoryLb.text = "Obese Class III"}
         }
-            //for standard units (kg & cm)
-//            else
-//            {
-//                bmi = Float((weight!*10000)/(height!*height!))
-//                roundedBMI = round(bmi!*100)/100.0
-//                self.resutlLb.text = String(format:"%.\(2)f", bmi!)
-//
-//                if (bmi! < 16) {self.categoryLb.text = "Severe Thinness"}
-//                else if (bmi! >= 16 && bmi! < 17) {self.categoryLb.text = "Moderate Thinness"}
-//                else if (bmi! >= 17 && bmi! < 18.5) {self.categoryLb.text = "Mild Thinness"}
-//                else if (bmi! >= 18.5 && bmi! < 25) {self.categoryLb.text = "Normal"}
-//                else if (bmi! >= 25 && bmi! < 30) {self.categoryLb.text = "Overweight"}
-//                else if (bmi! >= 30 && bmi! < 35) {self.categoryLb.text = "Obese Class I"}
-//                else if (bmi! >= 35 && bmi! <= 40) {self.categoryLb.text = "Obese Class II"}
-//                else if (bmi! > 40) {self.categoryLb.text = "Obese Class III"}
-////            }
-            //        addResult(weight: Float(weight!) , bmi: Float(roundedBMI))
- //       }
+//        addResult(weight: Float(weight!) , bmi: Float(roundedBMI))
+//       }
     }
 
 //    //add BMI record into coredata
