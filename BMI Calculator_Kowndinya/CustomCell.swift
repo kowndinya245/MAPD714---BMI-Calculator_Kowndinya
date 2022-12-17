@@ -10,14 +10,12 @@ import UIKit
 class CustomCell: UITableViewCell {
     
     
-    
     @IBOutlet weak var bmiLb: UILabel!
     
+    
     @IBOutlet weak var dateLb: UILabel!
-
+    
     @IBOutlet weak var weightLb: UILabel!
-    
-    
     
     
     override func awakeFromNib() {

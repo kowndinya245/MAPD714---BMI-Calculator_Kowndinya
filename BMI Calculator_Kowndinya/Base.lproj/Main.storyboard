@@ -313,12 +313,12 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <connections>
-                                                <outlet property="bmiLb" destination="4hj-6p-N74" id="dwC-xS-HKX"/>
-                                                <outlet property="dateLb" destination="lOD-YO-Nz8" id="ug5-qg-LvZ"/>
-                                                <outlet property="weightLb" destination="Ze3-VN-9CP" id="PvM-E5-B7a"/>
-                                            </connections>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="bmiLb" destination="4hj-6p-N74" id="Nid-VH-8E8"/>
+                                            <outlet property="dateLb" destination="lOD-YO-Nz8" id="R4k-I0-HWY"/>
+                                            <outlet property="weightLb" destination="Ze3-VN-9CP" id="8CE-MX-pv4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
