@@ -128,31 +128,16 @@ class ViewController: UIViewController {
             print(bmi)
             self.resutlLb.text = String(format:"%.\(2)f", bmi)
             
-         //   bmiTextLabel.text = "Your BMI: \(bmi)"
+            if (bmi < 16) {self.categoryLb.text = "Severe Thinness"}
+            else if (bmi >= 16 && bmi < 17) {self.categoryLb.text = "Moderate Thinness"}
+            else if (bmi >= 17 && bmi < 18.5) {self.categoryLb.text = "Mild Thinness"}
+            else if (bmi >= 18.5 && bmi < 25) {self.categoryLb.text = "Normal"}
+            else if (bmi >= 25 && bmi < 30) {self.categoryLb.text = "Overweight"}
+            else if (bmi >= 30 && bmi < 35) {self.categoryLb.text = "Obese Class I"}
+            else if (bmi >= 35 && bmi <= 40) {self.categoryLb.text = "Obese Class II"}
+            else if (bmi > 40) {self.categoryLb.text = "Obese Class III"}
+           //            }
             
-            //for imperial units (pounds & inches)
-            //if imperialSwitch.isOn
-//            if (unitSelect.selectedSegmentIndex == 0)
-//            {
-//                weight = (Float(weightField.text!)?.rounded())!
-//                weight = weight! * 0.453592
-//                height = (Float(heightField.text!)?.rounded())!
-//                height = height! * 0.0254
-//
-//            } else {
-//
-//                weight = (Float(weightField.text!)?.rounded())!
-//                height = (Float(heightField.text!)?.rounded())!
-//                height = height! * 0.01
-//
-//            }
-//
-//            bmi = weight! / ((height ?? 0) * (height ?? 0))
-//            bmi = ceil(bmi! * 10) / 10.0
-//            print(bmi!)
-//            roundedBMI = round(bmi!*100)/100.0
-//            self.resutlLb.text = String(format:"%.\(2)f", bmi!)
-////
             ///
             ///
             ///
