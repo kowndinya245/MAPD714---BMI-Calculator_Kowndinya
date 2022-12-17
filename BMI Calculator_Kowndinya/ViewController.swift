@@ -133,8 +133,7 @@ class ViewController: UIViewController {
             else if (bmi > 40) {self.categoryLb.text = "Obese Class III"}
             
         }
-//        addResult(weight: Float(weight!) , bmi: Float(roundedBMI))
-//       }
+        addResult(weight: Float(weight) , bmi: Float(roundedBMI))
     }
 
     //add BMI record into coredata

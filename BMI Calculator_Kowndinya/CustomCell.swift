@@ -18,6 +18,8 @@ class CustomCell: UITableViewCell {
     @IBOutlet weak var weightLb: UILabel!
     
     
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
